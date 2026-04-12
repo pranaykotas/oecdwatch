@@ -1,0 +1,64 @@
+---
+title: "Review of the Dominican Republic's Enabling Environment for the Semiconductor and Microelectronics Industries"
+date: 2026-03-02
+date-curated: 2026-04-10
+author: "Curated by Pranay Kotasthane"
+categories: [country-review, osat, small-economies, free-zones, india-relevant]
+oecd-url: "https://www.oecd.org/en/publications/review-of-the-dominican-republic-s-enabling-environment-for-the-semiconductor-and-microelectronics-industries_0b35b5a6-en.html"
+oecd-type: "OECD Country Review"
+india-relevance: 3
+description: "OECD's enabling-environment review of the Dominican Republic's semiconductor ambitions — a small-economy template that Indian states should read carefully."
+---
+
+::: {.callout-important icon=false title="India Focus"}
+The Dominican Republic's strategy is a useful analogue for **Indian states** (not the Union government) thinking about their own semiconductor positioning. The OECD's five-point prescription — institutional framework, free-zone regime, business environment, STI ecosystem, and electricity/water infrastructure — reads as a diagnostic checklist that Tamil Nadu, Gujarat, Telangana, and other Indian state governments could profitably apply to their own semiconductor cluster ambitions.
+:::
+
+[📄 Read at OECD <span class="arrow">↗</span><span class="oecd-type-label">Country Review · 2026</span>](https://www.oecd.org/en/publications/review-of-the-dominican-republic-s-enabling-environment-for-the-semiconductor-and-microelectronics-industries_0b35b5a6-en.html){.oecd-source-button target="_blank" rel="noopener"}
+
+## Summary
+
+In 2024, the Dominican Republic declared the development of its domestic semiconductor ecosystem a **"high national priority"**, aiming to capitalise on shifts in the global semiconductor supply chain toward greater diversification and resilience. This OECD review assesses the opportunities, challenges, and policy levers to support the development of the semiconductor and broader microelectronics industry in the country, combining analysis of aggregate and firm-level economic data with almost 40 stakeholder interviews.
+
+The analysis fed directly into the Dominican Republic's **National Strategy for the Promotion of the Semiconductor Industry** (*Estrategia Nacional de Fomento a la Industria de Semiconductores*), published in August 2025 — making this one of the clearer recent examples of OECD research translating into a country's operational semiconductor strategy.
+
+## Key Insights
+
+1. **The Dominican Republic is betting explicitly on the free-zone regime as its entry ramp.** Its existing FTZ infrastructure — built decades ago for textiles, medical devices, and electronics assembly — provides a running start for semiconductor assembly and test, without requiring a ground-up industrial policy.
+
+2. **The OECD's five-point prescription is unusually concrete.** The report recommends: (i) strengthening the institutional framework for semiconductor policymaking, (ii) leveraging the free-zone regime, (iii) enhancing the broader business environment, (iv) developing the science, technology, and innovation ecosystem, and (v) improving electricity and water infrastructure.
+
+3. **Electricity and water are treated as first-order constraints, not afterthoughts.** The report elevates power reliability and water availability to the same analytical level as fiscal incentives and workforce development — a reminder that for semiconductor-grade facilities, utility infrastructure is a make-or-break binding constraint.
+
+4. **Firm-level microdata plus stakeholder interviews is the OECD's methodology.** The combination of administrative data and ~40 industry interviews is worth noting as a template for similar country-level semiconductor diagnostics.
+
+5. **Policy work informed strategy, not the other way around.** The sequencing — OECD review → national strategy document, not a post-hoc validation — is unusual and worth emulating for countries that want external analytical rigour to shape domestic industrial policy rather than legitimise it.
+
+## What This Means for India
+
+India is not a small economy, but **India's state-level semiconductor strategies increasingly look like small-economy strategies**. Tamil Nadu, Telangana, Gujarat, Maharashtra, and Karnataka are each pursuing their own semiconductor positioning — often around a single anchor investor and one cluster location. The OECD's five-point Dominican Republic prescription maps onto the choices each of these states is actively making.
+
+**First, the institutional framework gap.** The OECD flags that even a serious national commitment can stall without a dedicated institutional home for semiconductor policymaking. Most Indian states run their semiconductor play out of their general industries department, without a specialised semiconductor policy unit. This is fine when the portfolio is one anchor project; it breaks when the state is trying to attract a second investor, maintain supplier development programmes, and coordinate skilling pipelines simultaneously. The DR's recommended institutional model — a dedicated semiconductor policy unit that sits above sectoral ministries — is directly transferable.
+
+**Second, the free-zone point challenges India's SEZ malaise.** India's SEZ framework has largely languished since the DTA-SEZ tax arbitrage was closed. The Dominican Republic's successful re-use of its FTZ infrastructure for semiconductor ecosystem development should prompt Indian policymakers to ask whether a modernised, semiconductor-specific SEZ framework — focused on logistics, imports of specialty chemicals and gases, and export processing — could unlock back-end investment that current instruments miss. This is the cheapest and highest-leverage reform suggested by the DR parallel.
+
+**Third, the electricity-water point is the most India-urgent insight.** Dholera (Gujarat), Sanand (Gujarat), and candidate sites in Telangana and Tamil Nadu all face water stress and grid reliability questions. The OECD treats these as first-order semiconductor siting constraints, not infrastructure nice-to-haves. India's ISM approvals have not, to date, incorporated formal utility-reliability assessments into the selection criteria — the DR review is an argument for adding them.
+
+**Fourth, the methodology is borrowable.** An Indian institution — Takshashila, NITI Aayog, a state industrial development corporation — could replicate the OECD's firm-level-data-plus-40-interviews methodology for a specific Indian state's semiconductor ambitions. The outputs would be more credible to anchor investors than the industrial-policy-brochure format currently in use.
+
+## Data Extracted
+
+> Detailed quantitative extraction pending a full reading of the report's firm-level and shift-share decomposition chapters. Key chapters to mine: "Understanding the semiconductor value chain", "Examining the domestic advanced manufacturing ecosystem", and the shift-share decomposition annex.
+
+Placeholder for India vs Dominican Republic comparison:
+
+| Metric | Dominican Republic | India (for comparison) | Source |
+|--------|:------------------:|:----------------------:|--------|
+| Semiconductor-ready free zones / SEZs | *TBD from report* | *TBD* | OECD DR Review |
+| Industrial electricity reliability (SAIFI) | *TBD from report* | *TBD* | OECD DR Review |
+
+## Source
+
+OECD (2026), *Review of the Dominican Republic's Enabling Environment for the Semiconductor and Microelectronics Industries*, OECD Publishing, Paris, [https://doi.org/10.1787/0b35b5a6-en](https://doi.org/10.1787/0b35b5a6-en).
+
+[Read the full report at OECD →](https://www.oecd.org/en/publications/review-of-the-dominican-republic-s-enabling-environment-for-the-semiconductor-and-microelectronics-industries_0b35b5a6-en.html)

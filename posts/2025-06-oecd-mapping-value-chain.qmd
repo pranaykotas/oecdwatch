@@ -1,0 +1,62 @@
+---
+title: "Mapping the Semiconductor Value Chain: Working Towards Identifying Dependencies and Vulnerabilities"
+date: 2025-06-24
+date-curated: 2026-04-10
+author: "Curated by Pranay Kotasthane"
+categories: [policy-paper, value-chain, dependencies, supply-chain, india-relevant]
+oecd-url: "https://www.oecd.org/en/publications/mapping-the-semiconductor-value-chain_4154cdbf-en.html"
+oecd-type: "OECD STI Policy Paper No. 182"
+india-relevance: 5
+description: "OECD's systematic mapping of who depends on whom in the semiconductor value chain — essential input for any 'atmanirbhar' conversation grounded in actual data."
+---
+
+::: {.callout-important icon=false title="India Focus"}
+India's *atmanirbhar* conversation about semiconductors has long run ahead of the data. This paper is the OECD's attempt to measure semiconductor dependencies rigorously — which countries depend on which others, for which segments, and how concentrated those dependencies are. Read with the Vulnerabilities paper (2023) and The Chip Landscape (2025), it forms the evidence base any serious Indian resilience strategy should start from.
+:::
+
+[📄 Read at OECD <span class="arrow">↗</span><span class="oecd-type-label">Policy Paper No. 182 · Jun 2025</span>](https://www.oecd.org/en/publications/mapping-the-semiconductor-value-chain_4154cdbf-en.html){.oecd-source-button target="_blank" rel="noopener"}
+
+## Summary
+
+OECD Science, Technology and Industry Policy Paper No. 182. The paper advances the OECD's multi-year effort to measure the semiconductor value chain — building on the 2023 *Vulnerabilities in the Semiconductor Supply Chain* working paper and the 2024 *Chips, Nodes and Wafers* taxonomy — by explicitly mapping dependencies and identifying vulnerabilities across the three core stages: chip design, wafer foundry, and assembly/test/packaging (ATP).
+
+> ⚠️ **Seed content — replace with detailed extracts after reading the full paper.**
+
+## Key Insights
+
+1. **Dependency is not a single number.** The paper distinguishes multiple dimensions of dependency: concentration of suppliers, geographic concentration, technological concentration (node-specific), and firm-level concentration. A country can be well-diversified on one dimension and dangerously concentrated on another.
+
+2. **The design stage has different dependencies from the foundry and ATP stages.** Design depends heavily on EDA tools and IP from a small number of firms (Synopsys, Cadence, Mentor/Siemens EDA, Arm). Foundry depends on equipment (ASML, AMAT, Tokyo Electron, Lam, KLA) and materials. ATP has its own, often underappreciated, dependencies.
+
+3. **Equipment dependencies may be the tightest of all.** ASML's near-monopoly on EUV lithography is the best-known case; the report likely quantifies several similar single-supplier chokepoints for less-discussed equipment categories.
+
+4. **Materials dependencies are underrated.** Noble gases (neon, xenon), specialty chemicals, photoresists, and substrates exhibit concentration patterns that are often more acute than equipment dependencies — and the 2022 Russia-Ukraine war's neon gas squeeze was an early warning.
+
+5. **The policy toolkit for reducing dependencies is limited.** The paper is typically cautious about blunt instruments (tariffs, export controls, domestic-content mandates) and points instead toward diversification incentives, stockpiling, and multilateral coordination.
+
+## What This Means for India
+
+**First, this paper is the right starting point for India's supply-chain resilience conversation.** Indian policy debates about semiconductor resilience too often default to "build everything domestically", which is neither feasible nor desirable at India's current scale. The OECD's more sophisticated framework — mapping which dependencies are actually risky (single-source, single-country, no substitutes) versus which are benign (many competitive suppliers) — is the lens Indian policymakers should adopt.
+
+**Second, India's own dependencies are worth auditing explicitly.** India is almost entirely import-dependent for: semiconductor manufacturing equipment, photoresists, specialty gases, high-purity chemicals, substrate materials, wafers, and leading-edge EDA tool licences. For OSAT and ATMP, add dependencies on lead frames, bonding wires, and molding compounds. An Indian institution (Takshashila, NITI Aayog, a state SIDC) should produce an India-specific dependency audit using the OECD's methodology. This would be a much more useful input to policy than the current vague resilience rhetoric.
+
+**Third, the "design has different dependencies from fab" point is critical for Indian industrial policy design.** India is a global force in chip design but a negligible one in fabrication. If the main near-term resilience objective is to secure India's *existing* design industry against chokepoints, the policy levers (EDA-tool sovereignty, IP access, talent retention) are completely different from the levers for securing a *future* manufacturing base (equipment, materials, utilities). The OECD framework makes it easier to keep these two objectives distinct, which Indian policy conversations routinely conflate.
+
+**Fourth, the materials dependency insight should inform ISM 2.0's scope.** If specialty gases and chemicals are the tightest chokepoints, India's industrial policy should not stop at fab and OSAT incentives — it should extend to specialty chemicals, industrial gases, and substrate materials. Several of these are plausibly within India's existing chemical-industry capabilities with a modest policy push. This is a concrete expansion of ISM scope the OECD analysis would support.
+
+## Data Extracted
+
+> Pull concentration metrics (Herfindahl indices, top-3 supplier shares) for each value-chain stage and populate `data/datapoints.yml`. Particularly useful for cross-country comparison: India's exposure to each chokepoint category.
+
+| Dependency category | Top-3 country concentration | India's exposure | Source |
+|---|:---:|:---:|---|
+| EUV lithography equipment | *TBD* | High (100%) | p. *TBD* |
+| Photoresists | *TBD* | *TBD* | p. *TBD* |
+| Noble gases (neon, xenon) | *TBD* | *TBD* | p. *TBD* |
+| EDA tools | *TBD* | *TBD* | p. *TBD* |
+
+## Source
+
+OECD (2025), *Mapping the Semiconductor Value Chain: Working Towards Identifying Dependencies and Vulnerabilities*, OECD Science, Technology and Industry Policy Papers, No. 182, OECD Publishing, Paris, [https://doi.org/10.1787/4154cdbf-en](https://doi.org/10.1787/4154cdbf-en).
+
+[Read the full paper at OECD →](https://www.oecd.org/en/publications/mapping-the-semiconductor-value-chain_4154cdbf-en.html)

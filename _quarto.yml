@@ -1,0 +1,46 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+    - "posts/*.qmd"
+    - "!CLAUDE.md"
+    - "!README.md"
+
+website:
+  title: "OECD Semiconductor Watch"
+  description: "Curated OECD semiconductor research, interpreted for India's policy community"
+  site-url: "https://oecdwatch.pranaykotas.com"
+
+  navbar:
+    background: "#0D1F3C"
+    foreground: "#ffffff"
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "All Reports"
+        href: reports.qmd
+      - text: "Compare Countries"
+        href: comparisons.qmd
+      - text: "About"
+        href: about.qmd
+
+  page-footer:
+    left: |
+      &copy; 2026 Pranay Kotasthane · [Takshashila Institution](https://takshashila.org.in)
+    center: |
+      Curated from [OECD iLibrary](https://www.oecd-ilibrary.org) · Made with [Quarto](https://quarto.org)
+    right: |
+      [Suggest a report](https://github.com/pranaykotas/oecdwatch/issues/new)
+
+  search: true
+
+format:
+  html:
+    theme:
+      light: [cosmo, styles.scss]
+    toc: true
+    toc-depth: 2
+    mainfont: "DM Sans"
+    monofont: "JetBrains Mono"
+    code-copy: true

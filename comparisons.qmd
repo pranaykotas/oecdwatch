@@ -1,0 +1,123 @@
+---
+title: "Compare Countries"
+subtitle: "How India stacks up against other semiconductor economies"
+page-layout: full
+toc: true
+toc-location: right
+---
+
+Every chart on this page is drawn from data extracted from curated OECD reports and publicly-reported national programmes. **India is always highlighted in saffron.** Where India has zero or missing data on a metric, we flag that as a finding in its own right.
+
+::: {.callout-tip}
+Update the underlying data by editing `data/datapoints.yml`. Charts re-render automatically when the site rebuilds.
+:::
+
+```{ojs}
+//| echo: false
+// Import js-yaml from CDN for YAML parsing in the browser
+jsyaml = require("js-yaml@4.1.0")
+
+// Load the datapoints YAML file and parse
+datapointsRaw = FileAttachment("data/datapoints.yml").text()
+datapoints = jsyaml.load(await datapointsRaw).datapoints
+
+// Transform nested YAML (values as country->number map) into a flat array
+// of {metric, label, unit, year, country, value, source_report, note, is_india}
+flatData = datapoints.flatMap(dp =>
+  Object.entries(dp.values).map(([country, value]) => ({
+    metric: dp.metric,
+    label: dp.label,
+    unit: dp.unit,
+    year: dp.year,
+    source_report: dp.source_report,
+    note: dp.note,
+    country: country,
+    value: value,
+    is_india: country === "India"
+  }))
+)
+
+// Colours: saffron for India, neutral grey for others
+indiaColor = "#FF9933"
+otherColor = "#7A8A99"
+
+// Helper to render one bar chart per metric
+chartForMetric = function(metric) {
+  const rows = flatData.filter(d => d.metric === metric)
+  const meta = datapoints.find(d => d.metric === metric)
+  const indiaRow = rows.find(d => d.is_india)
+  const indiaAbsent = !indiaRow || indiaRow.value === 0
+
+  return Plot.plot({
+    marginLeft: 140,
+    marginRight: 40,
+    height: Math.max(220, rows.length * 34),
+    x: {
+      label: meta.unit,
+      grid: true
+    },
+    y: {
+      label: null,
+      domain: rows.slice().sort((a, b) => b.value - a.value).map(d => d.country)
+    },
+    marks: [
+      Plot.barX(rows, {
+        x: "value",
+        y: "country",
+        fill: d => d.is_india ? indiaColor : otherColor,
+        sort: {y: "x", reverse: true}
+      }),
+      Plot.text(rows, {
+        x: "value",
+        y: "country",
+        text: d => d.value.toLocaleString(),
+        textAnchor: "start",
+        dx: 4,
+        fontSize: 11,
+        fill: "#333"
+      }),
+      Plot.ruleX([0])
+    ]
+  })
+}
+```
+
+## Government semiconductor commitments
+
+```{ojs}
+//| echo: false
+chartForMetric("govt_semiconductor_commitment_usd_bn")
+```
+
+::: {.chart-caption}
+Publicly-announced national commitments as of 2024, compiled from each country's programme announcements (US CHIPS Act, EU Chips Act, India ISM scheme, K-Chips Act, Japan's rebuilding programme). These are not OECD figures — they are an editorial compilation included here for reference while waiting for an authoritative OECD cross-country subsidy benchmark.
+:::
+
+## Installed fab capacity
+
+```{ojs}
+//| echo: false
+chartForMetric("installed_fab_capacity_kwpm")
+```
+
+::: {.india-absent}
+**India is at zero.** India has no commercial wafer fab capacity as of 2023 — the first ISM-approved fabs (Tata-PSMC at Dholera, Micron at Sanand for ATMP) are still under construction. This metric will move over the next 3-5 years; it is the single most closely-watched number in Indian semiconductor policy.
+:::
+
+## Direct semiconductor workforce
+
+```{ojs}
+//| echo: false
+chartForMetric("semiconductor_workforce_thousands")
+```
+
+::: {.chart-caption}
+India's ~95,000 workers are concentrated in design and R&D — not fab operations. The OECD's Mexico review argues that middle-skill shortages (technicians, process engineers) are the binding constraint for countries scaling semiconductor manufacturing, not PhD shortages. India faces exactly this gap.
+:::
+
+## Methodology
+
+- **Data source:** each chart's underlying figures are in `data/datapoints.yml` in this site's repository, with a pointer back to the curated report that supplied them.
+- **Seed data warning:** the initial seed values are drawn from publicly-reported national commitments (CHIPS Act, EU Chips Act, India ISM, K-Chips Act, Japan's rebuilding programme). They are not authoritative OECD figures. When the OECD publishes a direct cross-country benchmarking exercise, the data file will be updated to cite that source.
+- **India highlighting:** charts are rendered with [Observable Plot](https://observablehq.com/plot/) in the browser; India's bar is always filled with saffron (#FF9933). If India is absent or zero, a callout explains why.
+- **Contributing:** spot an error or have a newer figure? [Open an issue](https://github.com/pranaykotas/oecdwatch/issues/new).

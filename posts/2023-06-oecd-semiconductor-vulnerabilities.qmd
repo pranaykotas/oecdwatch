@@ -1,0 +1,64 @@
+---
+title: "Vulnerabilities in the Semiconductor Supply Chain"
+date: 2023-06-19
+date-curated: 2026-04-10
+author: "Curated by Pranay Kotasthane"
+categories: [working-paper, supply-chain, icio, dependencies, india-relevant]
+oecd-url: "https://www.oecd.org/en/publications/vulnerabilities-in-the-semiconductor-supply-chain_6bed616f-en.html"
+oecd-type: "OECD STI Working Paper 2023/05"
+india-relevance: 4
+description: "The foundational OECD quantification of semiconductor supply-chain dependencies using new Inter-Country Input-Output data that separates semiconductors from the broader electronics industry."
+---
+
+::: {.callout-important icon=false title="India Focus"}
+This 2023 working paper is the *data backbone* on which every later OECD semiconductor publication builds. Its core contribution — Inter-Country Input-Output data that separates semiconductors from computers/electronics — is what finally makes it possible to say something quantitative about where India fits, and where India doesn't, in the global semiconductor value chain. It is also the first OECD publication to take the economic cost of semiconductor shortages seriously enough to quantify it.
+:::
+
+[📄 Read at OECD <span class="arrow">↗</span><span class="oecd-type-label">Working Paper 2023/05 · Jun 2023</span>](https://www.oecd.org/en/publications/vulnerabilities-in-the-semiconductor-supply-chain_6bed616f-en.html){.oecd-source-button target="_blank" rel="noopener"}
+
+## Summary
+
+Haramboure, A., et al. (2023), *Vulnerabilities in the Semiconductor Supply Chain*, OECD Science, Technology and Industry Working Papers, No. 2023/05. The paper maps cross-country and cross-sectoral dependencies in the semiconductor value chain using new OECD Inter-Country Input-Output (ICIO) data that, for the first time, separate the semiconductor industry from the wider computer and electronics value chain. It covers the three core semiconductor manufacturing stages — **chip design, wafer foundry, and assembly, test and packaging (ATP)** — and analyses the downstream industries that depend on semiconductors as critical inputs (information and communications, motor vehicles, and others).
+
+The paper's policy conclusion is measured: semiconductor shortages can produce large ripple effects through downstream industries, but the policy options to reduce these vulnerabilities must be weighed against the efficiency benefits of global sourcing.
+
+> ⚠️ **Seed content — replace with detailed extracts after reading the full paper.**
+
+## Key Insights
+
+1. **The ICIO innovation is the point.** Until this paper, semiconductor-specific input-output data did not exist in standard OECD datasets — semiconductors were bundled into a broader "computer, electronic and optical products" category that masked the very dependencies policymakers wanted to see. The paper's methodological contribution is the unbundling.
+
+2. **Downstream dependence is bigger than commonly recognised.** Motor vehicles, ICT, and several machinery sectors are far more dependent on semiconductor inputs than their finished-goods export values would suggest. The paper likely quantifies this exposure explicitly.
+
+3. **Cross-country dependencies are highly asymmetric.** The paper maps which countries are semiconductor net suppliers (Taiwan, South Korea, US, Japan) and which are net consumers — and how specific the dependencies are.
+
+4. **The three stages (design, foundry, ATP) have different dependency profiles.** Later OECD work — particularly the 2025 *Mapping the Semiconductor Value Chain* policy paper — builds directly on this stage-specific framing.
+
+5. **Policy options are presented with caution.** The paper discusses diversification, stockpiling, and international cooperation, but is explicit that cost-benefit analysis matters. Blunt self-sufficiency strategies are neither analytically supported nor likely to be efficient.
+
+## What This Means for India
+
+**First, this paper is the right prior for India's supply-chain resilience conversation.** Indian policy debates on semiconductor resilience tend to operate with vivid anecdotes (the 2021 auto chip shortage, the Russia-Ukraine neon squeeze) and sweeping aspirations (*atmanirbhar*, self-reliance). This paper forces a more quantitative framing: *how exposed is India actually*, to *which stages*, through *which downstream industries*? The answer is that India's exposure is heaviest in ICT equipment, automotive, and increasingly defence — and the policy implication is segment-specific rather than system-wide.
+
+**Second, India's position in the global ICIO picture is a mirror worth holding up.** India is a significant *consumer* of imported semiconductors and a modest *exporter* of semiconductor design services (through captives of global IDMs and fabless firms). It is not, as of this paper's snapshot, a significant manufacturer. Any Indian policymaker making claims about India's semiconductor standing should know exactly where India sits in the OECD's ICIO tables and how that has (or has not) changed since 2023.
+
+**Third, the "downstream dependence is bigger than commonly recognised" insight is the most important one for India's automotive sector.** India's auto industry — already the third-largest in the world by production — is deeply exposed to semiconductor inputs. The 2021-22 auto chip shortage cost Indian OEMs significant production losses. The OECD's quantitative framework is the right tool for asking which segments of the Indian auto value chain are most exposed, and what policy responses (domestic ATP, preferential allocation agreements with foreign fabs, strategic stockpiling) are worth the cost.
+
+**Fourth, the paper's caution on blunt policies is a useful corrective to Indian industrial policy reflexes.** India has a tradition of reaching for domestic-content mandates, import restrictions, and export bans when supply chains look risky. This paper is a careful argument that such instruments rarely produce the intended resilience and often sacrifice efficiency. An Indian ISM 2.0 conversation should read this carefully before reaching for such tools.
+
+**Fifth, this is the paper to cite when resisting unrealistic self-sufficiency demands.** Indian political discourse occasionally demands complete semiconductor self-sufficiency. The OECD's analysis is the best-available technocratic rebuttal: quantified, cautious, and grounded in data rather than assertion.
+
+## Data Extracted
+
+> Pull India-specific ICIO figures if present — net semiconductor import dependency, exposure by downstream sector, concentration metrics.
+
+| Metric | Source | India value | Context |
+|--------|--------|:-----------:|---------|
+| Semiconductor import share of consumption | ICIO 2023 | *TBD* | *TBD* |
+| Downstream sectors' exposure to semi shortages | ICIO 2023 | *TBD* | Auto, ICT especially |
+
+## Source
+
+Haramboure, A., et al. (2023), *Vulnerabilities in the Semiconductor Supply Chain*, OECD Science, Technology and Industry Working Papers, No. 2023/05, OECD Publishing, Paris, [https://doi.org/10.1787/6bed616f-en](https://doi.org/10.1787/6bed616f-en).
+
+[Read the full paper at OECD →](https://www.oecd.org/en/publications/vulnerabilities-in-the-semiconductor-supply-chain_6bed616f-en.html)

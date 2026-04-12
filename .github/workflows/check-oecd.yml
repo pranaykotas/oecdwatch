@@ -1,0 +1,69 @@
+name: Check for New OECD Semiconductor Publications
+
+on:
+  schedule:
+    # Every Monday at 08:00 UTC (1:30pm IST)
+    - cron: '0 8 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run OECD checker
+        id: check
+        run: |
+          set -euo pipefail
+          NEW_TITLES=$(bash scripts/check_oecd.sh || true)
+          if [[ -n "$NEW_TITLES" ]]; then
+            echo "has_new=true" >> "$GITHUB_OUTPUT"
+            {
+              echo 'titles<<EOF'
+              echo "$NEW_TITLES"
+              echo 'EOF'
+            } >> "$GITHUB_OUTPUT"
+          else
+            echo "has_new=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit updated known-publications list
+        if: steps.check.outputs.has_new == 'true'
+        run: |
+          git config user.name "oecdwatch-bot"
+          git config user.email "actions@github.com"
+          git add data/known_publications.txt
+          git commit -m "chore: record newly-detected OECD publications" || true
+          git push || true
+
+      - name: Open issue for new publications
+        if: steps.check.outputs.has_new == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TITLES="${{ steps.check.outputs.titles }}"
+          BODY=$(cat <<EOF
+          The weekly OECD iLibrary check detected the following new semiconductor publication(s):
+
+          \`\`\`
+          $TITLES
+          \`\`\`
+
+          **Next steps for curation:**
+
+          1. Open the OECD iLibrary search for [semiconductor](https://www.oecd-ilibrary.org/search?value1=semiconductor&option1=fulltext&sortDescending=true&sortField=prism_publicationDate) to find the full reference.
+          2. Read the executive summary and decide if it is worth curating.
+          3. If yes: create \`posts/YYYY-MM-oecd-slug.qmd\` following the template in \`CLAUDE.md\`.
+          4. Update \`data/datapoints.yml\` if the report contains new cross-country metrics.
+          5. Commit, push, and close this issue.
+          EOF
+          )
+          gh issue create \
+            --title "New OECD semiconductor publication(s) detected" \
+            --body "$BODY" \
+            --label "oecd-alert"

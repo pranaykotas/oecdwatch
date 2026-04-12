@@ -1,0 +1,46 @@
+---
+title: "About"
+subtitle: "Why OECD Semiconductor Watch exists, and how it is maintained"
+toc: true
+---
+
+## Why this site exists
+
+The OECD's Directorate for Science, Technology and Innovation produces some of the most rigorous comparative research on semiconductor policy anywhere in the world. Its country reviews — Mexico, the Dominican Republic, and others in progress — read like a field manual for smaller economies trying to enter global semiconductor value chains. Its subsidy benchmarking is often the first place where dispersed national programmes are put on a single comparable footing.
+
+But this research is not easy to track. OECD publications are scattered across the iLibrary under multiple directorates. There is no single feed for "semiconductor" content. And for the Indian policy community specifically, nobody is systematically translating OECD findings into what they mean for India's semiconductor strategy.
+
+**This site fills that gap.** It does three things:
+
+1. **Monitors** OECD semiconductor publications weekly, so nothing slips through.
+2. **Curates** each relevant report with an editorial summary, extracted data points, and a dedicated "What This Means for India" section.
+3. **Enables comparison** across OECD and publicly-reported data — with India always visually highlighted, so the Indian reader can find the relevant reference point at a glance.
+
+## Editorial principle
+
+Every report curated here must answer: **what does this mean for India?** Even research on Mexico or the Dominican Republic is worth the effort if it illuminates a choice, a benchmark, or a warning for India's semiconductor ambitions.
+
+Reports are rated 1-5 on an **India-relevance** scale. The rating is editorial, not algorithmic. A rating of 5 means the report speaks directly to an active Indian policy debate (subsidies, OSAT, workforce). A rating of 1 means the report is curated for completeness but has only incidental relevance to India.
+
+## Methodology
+
+- **Source of truth:** the [OECD iLibrary](https://www.oecd-ilibrary.org), supplemented by OECD directorate pages and working paper series.
+- **Curation cadence:** weekly monitoring, ad-hoc curation as reports appear.
+- **Data extracted** into `data/datapoints.yml` is always cited back to the source report and page number where possible. Where the source is a national programme announcement rather than an OECD publication, that is noted explicitly.
+- **Cross-country comparisons:** rendered client-side in the browser with Observable Plot. India is always highlighted in saffron (#FF9933).
+
+## Who maintains this
+
+Curated by [Pranay Kotasthane](https://pranaykotas.com), Deputy Director at the [Takshashila Institution](https://takshashila.org.in), Bengaluru. Pranay co-authored *When the Chips Are Down: A Deep Dive into a Global Crisis* (Bloomsbury, 2023) and leads Takshashila's Semiconductor Geopolitics programme.
+
+## How to contribute
+
+- **Suggest a report** — if you come across an OECD semiconductor publication that should be curated here, [open an issue](https://github.com/pranaykotas/oecdwatch/issues/new) with the title and URL.
+- **Spot an error or newer data** — same: open an issue, or email pranay@takshashila.org.in.
+- **Use the data** — all curated content is freely reusable with attribution. The underlying YAML data files are in the repository.
+
+## Technical notes
+
+- Built with [Quarto](https://quarto.org). No R or Python runtime — the site rebuilds with Quarto alone.
+- Hosted on GitHub Pages. Source: [pranaykotas/oecdwatch](https://github.com/pranaykotas/oecdwatch).
+- Cross-country charts use [Observable Plot](https://observablehq.com/plot/) and [js-yaml](https://github.com/nodeca/js-yaml), loaded client-side.

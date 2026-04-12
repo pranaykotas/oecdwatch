@@ -1,0 +1,11 @@
+# OECD publications already seen by check_oecd.sh
+# The script appends new titles to this file. Manually prune if needed.
+# Baseline seeded 2026-04-10 with the 7 OECD semiconductor publications
+# currently curated in this site.
+Review of the Dominican Republic's Enabling Environment for the Semiconductor and Microelectronics Industries
+Promoting the Development of the Semiconductor Ecosystem in Mexico
+The Chip Landscape: Geographical Distribution of Wafer Fabrication Capacity
+Mapping the semiconductor value chain: Working towards identifying dependencies and vulnerabilities
+Promoting the Growth of the Semiconductor Ecosystem in the Philippines
+Chips, nodes and wafers: A taxonomy for semiconductor data collection
+Vulnerabilities in the semiconductor supply chain

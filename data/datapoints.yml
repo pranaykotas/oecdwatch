@@ -1,0 +1,53 @@
+# Cross-country data points extracted from curated OECD reports.
+# This file powers the Compare Countries page via Observable JS.
+#
+# NOTE: Seed values below use publicly-reported national commitments from
+# widely-cited sources (CHIPS Act, EU Chips Act, India ISM scheme, K-Chips Act
+# etc.). When Pranay curates real OECD reports, update or replace these entries
+# with OECD's specific figures and cite the source report + page.
+
+datapoints:
+  - metric: govt_semiconductor_commitment_usd_bn
+    label: "Government Semiconductor Commitments (USD bn)"
+    unit: "USD bn"
+    year: 2024
+    source_type: "editorial compilation"
+    source_note: "Compiled from national programme announcements: US CHIPS Act, EU Chips Act, India ISM, K-Chips Act, Japan's rebuilding programme, China Big Fund estimates. Not an OECD figure — placeholder until an authoritative OECD benchmark is curated."
+    values:
+      India: 10.0
+      United States: 52.7
+      European Union: 46.3
+      China: 40.0
+      Japan: 25.3
+      South Korea: 19.0
+      Taiwan: 5.5
+
+  - metric: installed_fab_capacity_kwpm
+    label: "Installed Fab Capacity (Thousand Wafers per Month, 300mm-equivalent)"
+    unit: "K wafers/month"
+    year: 2023
+    source_type: "editorial compilation"
+    source_note: "Indicative order-of-magnitude capacity from industry trackers; India's commercial fab capacity is zero as of this snapshot. Placeholder until an authoritative OECD capacity benchmark is curated."
+    values:
+      Taiwan: 4800
+      South Korea: 3900
+      China: 3200
+      Japan: 2100
+      United States: 1800
+      European Union: 1200
+      India: 0
+
+  - metric: semiconductor_workforce_thousands
+    label: "Direct Semiconductor Workforce (Thousands)"
+    unit: "thousand workers"
+    year: 2023
+    source_type: "editorial compilation"
+    source_note: "India figure reflects design/R&D workforce, not fab operators. Placeholder until an authoritative OECD workforce benchmark is curated."
+    values:
+      China: 540
+      Taiwan: 330
+      United States: 280
+      South Korea: 190
+      Japan: 170
+      India: 95
+      European Union: 90

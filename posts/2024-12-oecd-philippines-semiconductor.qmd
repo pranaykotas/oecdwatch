@@ -1,0 +1,67 @@
+---
+title: "Promoting the Growth of the Semiconductor Ecosystem in the Philippines"
+date: 2024-12-09
+date-curated: 2026-04-10
+author: "Curated by Pranay Kotasthane"
+categories: [country-review, osat, atp, workforce, india-relevant]
+oecd-url: "https://www.oecd.org/en/publications/promoting-the-growth-of-the-semiconductor-ecosystem-in-the-philippines_01497fea-en.html"
+oecd-type: "OECD Country Review"
+india-relevance: 5
+description: "The Philippines is the world's 9th-largest chip exporter with semiconductors as its largest export — and it is India's closest Asian analogue. Essential reading for India's OSAT ambitions."
+---
+
+::: {.callout-important icon=false title="India Focus"}
+Of all the OECD country reviews curated here, this is the one closest to India's situation. The Philippines is the world's **ninth-largest chip exporter** with semiconductors as its **largest export industry**, built almost entirely around ATP (assembly, testing, packaging) — exactly the segment India's ISM scheme is betting on. The OECD's diagnosis of what the Philippines has right and what it has wrong reads as an almost direct import for Indian semiconductor policy.
+:::
+
+[📄 Read at OECD <span class="arrow">↗</span><span class="oecd-type-label">Country Review · Dec 2024</span>](https://www.oecd.org/en/publications/promoting-the-growth-of-the-semiconductor-ecosystem-in-the-philippines_01497fea-en.html){.oecd-source-button target="_blank" rel="noopener"}
+
+## Summary
+
+This OECD country review examines the opportunities and challenges of the Philippine semiconductor ecosystem, with a specific focus on assembly, testing, and packaging (ATP). It combines quantitative and policy analysis — covering infrastructure, human capital, and global value chain integration — and offers concrete recommendations across business environment, R&D, technology, and workforce development. A companion OECD blog post distilled seven headline strategies.
+
+The Philippines is the ninth-largest chip exporter globally, and semiconductors are the single largest component of its exports. Unlike Mexico or the Dominican Republic, the Philippines is an **established** player being asked how to grow and move up the value chain — not a late entrant being asked how to break in.
+
+> ⚠️ **Seed content — replace with detailed extracts after reading the full report.**
+
+## Key Insights
+
+1. **ATP is the anchor, but the report asks whether ATP-only is a dead end.** The Philippines' position in semiconductors is overwhelmingly in assembly, test, and packaging. The OECD's review asks — politely but pointedly — whether this specialisation is a durable platform or a ceiling.
+
+2. **Workforce is a recurring theme, as in every OECD country review.** The report highlights the need for industry-academia partnerships and international collaboration to scale up workforce development. *(extract specific recommendations)*
+
+3. **Business environment constraints are separable from incentive-policy constraints.** The report distinguishes the friction of doing business in the Philippines (regulatory, logistical, administrative) from the size of fiscal incentives — and is clear that fixing the former matters more than enlarging the latter.
+
+4. **R&D and technology intensity are flagged as the main constraints to moving up.** The Philippines has not translated its ATP volume into R&D investment or domestic technology development.
+
+5. **International collaboration is treated as a substitute for scale.** The OECD recommends that the Philippines lean into partnerships (likely with Japan, Korea, the US, and other OECD economies) as a way to access technology and markets the country cannot develop on its own.
+
+## What This Means for India
+
+**First, the Philippines is the most direct comparator India has.** Mexico and the Dominican Republic are useful analogues at the margins. The Philippines is a structural twin: large population, English-speaking, democratic, middle-income, with an established OSAT/ATP presence (the India–Philippines comparison on ATP has been made by Indian industry associations for years). Every page of this report should be read with the question: *does this also apply to India, and if not, why not?*
+
+**Second, the "is ATP-only a dead end?" question is the one India must confront.** India's ISM scheme bet heavily on OSAT/ATP as the realistic entry. The OECD's Philippines review is a 2-decade-later check on whether the bet compounds into something more — or remains a trapped specialisation that delivers exports and jobs without moving India up the value chain. The answer from the Philippines appears to be *"moving up requires deliberate action on R&D and technology"* — a piece of policy intelligence India's ISM 2.0 conversation desperately needs.
+
+**Third, the workforce + academia + international collaboration playbook maps onto India's own gap.** India's IIT and NIT system produces world-class design engineers but very few fab-floor technicians, process engineers, or packaging-specialty operators. The Philippines' approach of tying workforce development to industry partnerships and international collaboration is directly borrowable for India's ITI system and its semiconductor-specific training programmes.
+
+**Fourth, the business-environment point is a quiet rebuke that applies to India too.** India's ISM debates over-index on incentive size and under-index on the texture of doing business (permits, customs, logistics, power reliability, water, contract enforcement). The OECD's Philippines review is a reminder that for footloose global semiconductor investors, the friction of operating matters more than the headline subsidy number.
+
+**Fifth, the international collaboration recommendation is directly applicable to India.** India already has semiconductor MoUs with the US, Japan, the EU, Singapore, and others. The Philippines review gives the argument for why these MoUs need to be converted into operational technology-transfer and joint-training programmes — not kept as diplomatic symbolism.
+
+## Data Extracted
+
+> Pull the Philippine baseline metrics and populate `data/datapoints.yml` for direct India-Philippines comparison.
+
+| Metric | Philippines | India | Source |
+|--------|:-----------:|:-----:|--------|
+| Global rank as semiconductor exporter | 9th | *TBD* | Report p. *TBD* |
+| Semiconductors as % of total exports | ~50% (widely cited) | *~5% TBD* | Report p. *TBD* |
+| ATP workforce (thousands) | *TBD* | *TBD* | Report p. *TBD* |
+
+## Source
+
+OECD (2024), *Promoting the Growth of the Semiconductor Ecosystem in the Philippines*, OECD Publishing, Paris, [https://doi.org/10.1787/01497fea-en](https://doi.org/10.1787/01497fea-en).
+
+**Companion piece:** OECD blog (January 2025), [*7 strategies to strengthen the semiconductor ecosystem in the Philippines*](https://www.oecd.org/en/blogs/2025/01/7-strategies-to-strengthen-the-semiconductor-ecosystem-in-the-philippines.html).
+
+[Read the full report at OECD →](https://www.oecd.org/en/publications/promoting-the-growth-of-the-semiconductor-ecosystem-in-the-philippines_01497fea-en.html)

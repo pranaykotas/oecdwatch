@@ -1,0 +1,63 @@
+---
+title: "Chips, Nodes and Wafers: A Taxonomy for Semiconductor Data Collection"
+date: 2024-08-12
+date-curated: 2026-04-10
+author: "Curated by Pranay Kotasthane"
+categories: [policy-paper, taxonomy, data, methodology, india-relevant]
+oecd-url: "https://www.oecd.org/en/publications/chips-nodes-and-wafers_f68de895-en.html"
+oecd-type: "OECD STI Policy Paper"
+india-relevance: 3
+description: "A boring-sounding but load-bearing paper: the OECD's taxonomy for classifying fabs, nodes, and wafers. Read it if you care about whether Indian semiconductor statistics are internationally comparable."
+---
+
+::: {.callout-important icon=false title="India Focus"}
+This paper is not a policy argument — it is **plumbing**. But the plumbing matters: it defines how fabs, nodes, and wafers will be classified in the OECD's forthcoming Semiconductor Production Database. For India, the question is whether Indian statistics (from ISM, MeitY, NITI Aayog, and state industrial corporations) will be collected in a way that is internationally comparable or not. If Indian data uses incompatible categories, India will be systematically invisible in future OECD comparative analyses.
+:::
+
+[📄 Read at OECD <span class="arrow">↗</span><span class="oecd-type-label">Policy Paper · Aug 2024 · 38 pp</span>](https://www.oecd.org/en/publications/chips-nodes-and-wafers_f68de895-en.html){.oecd-source-button target="_blank" rel="noopener"}
+
+## Summary
+
+A 38-page OECD Science, Technology and Industry Policy Paper that proposes a comprehensive framework for classifying semiconductors and their production facilities. The taxonomy covers front-end wafer fabs using: (i) general company and plant information (location, ownership, operational status), (ii) capability (chip types produced, process technologies used), and (iii) capacity (production capacity, cleanroom size). The paper explicitly sets itself up as the basis for the OECD's *Semiconductor Production Database* — the infrastructure that later reports like [The Chip Landscape (2025)](2025-12-oecd-chip-landscape.qmd) build on.
+
+> ⚠️ **Seed content — replace with detailed extracts after reading the full paper.**
+
+## Key Insights
+
+1. **The paper is explicit that the semiconductor taxonomy problem is unsolved.** Public semiconductor statistics have historically mixed nodes, chip types, wafer sizes, and facility types in incompatible ways. Without a shared taxonomy, cross-country and time-series comparisons are unreliable.
+
+2. **The proposed taxonomy is three-layered.** Company/plant, capability, and capacity — each with specific fields and definitions. Future revisions are anticipated as technology evolves.
+
+3. **The taxonomy is intentionally front-end focused first.** Back-end facilities (OSAT, ATMP) are acknowledged as an important future extension but are not fully covered in this initial version.
+
+4. **International coordination is required, not just definition.** The paper recognises that a taxonomy only matters if statistical agencies and industry associations adopt it. It reads as a soft lobbying document for OECD members to align their national data collection.
+
+5. **The paper is self-aware about the trade-off between granularity and feasibility.** More granular classification is more useful analytically but harder to maintain against a moving technological target.
+
+## What This Means for India
+
+**First, India has a choice to make about statistical interoperability.** When the ISM collects data from approved fab projects, when MeitY publishes ecosystem statistics, and when NITI Aayog benchmarks semiconductor progress, the category definitions matter. If they use India-specific classifications, every future OECD comparative report will either exclude India or interpret Indian data inconsistently. The cost of adopting the OECD taxonomy is low; the cost of not adopting it is high and rising.
+
+**Second, the missing OSAT layer is an opening for Indian advocacy.** India's semiconductor footprint is disproportionately in OSAT/ATMP. The OECD's front-end-first taxonomy will systematically under-represent India unless the back-end extension is built. India's Ministry of Electronics and IT, together with ISA, could credibly push the OECD to accelerate the back-end taxonomy work and offer India-specific data as part of that effort — converting an apparent disadvantage into influence.
+
+**Third, Indian think tanks and researchers should treat this taxonomy as the reference vocabulary.** Any future Indian semiconductor tracking effort (including the Takshashila [India Semiconductor Manufacturing Tracker](https://fabs.pranaykotas.com)) should explicitly map its own categories to the OECD taxonomy. That makes the India-specific work interoperable with international benchmarks and significantly more useful to policymakers.
+
+**Fourth, a low-visibility but high-leverage takeaway: who sets the standard wins.** The OECD's taxonomy will become the lingua franca of semiconductor statistics. Countries that engaged in its design have their categories embedded in the standard. Countries that did not will permanently fit themselves to someone else's vocabulary. India should have a reviewer in the next revision round.
+
+## Data Extracted
+
+> This is a methodology paper, not a data paper. The "data" here is the taxonomy itself — mine the paper for the complete field list and map them to India's own data collection practices in the ISM scheme.
+
+**Taxonomy dimensions (to extract in full):**
+
+- Company / plant: *fields TBD*
+- Capability: *fields TBD*
+- Capacity: *fields TBD*
+
+## Source
+
+OECD (2024), *Chips, Nodes and Wafers: A Taxonomy for Semiconductor Data Collection*, OECD Science, Technology and Industry Policy Papers, OECD Publishing, Paris, [https://doi.org/10.1787/f68de895-en](https://doi.org/10.1787/f68de895-en).
+
+**Companion OECD blog:** [*Speaking the same chip language: why a shared semiconductor taxonomy matters for global co-operation and supply chain resilience*](https://www.oecd.org/en/blogs/2024/11/speaking-the-same-chip-language-why-a-shared-semiconductor-taxonomy-matters-for-global-co-operation-and-supply-chain-resilience.html) (November 2024).
+
+[Read the full paper at OECD →](https://www.oecd.org/en/publications/chips-nodes-and-wafers_f68de895-en.html)

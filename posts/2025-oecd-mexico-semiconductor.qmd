@@ -1,0 +1,60 @@
+---
+title: "Promoting the Development of the Semiconductor Ecosystem in Mexico"
+date: 2026-02-27
+date-curated: 2026-04-10
+author: "Curated by Pranay Kotasthane"
+categories: [country-review, nearshoring, workforce, india-relevant]
+oecd-url: "https://www.oecd.org/en/publications/promoting-the-development-of-the-semiconductor-ecosystem-in-mexico_02c81dec-en.html"
+oecd-type: "OECD Publication"
+india-relevance: 4
+description: "OECD's review of Mexico's semiconductor opportunity — a nearshoring case study with sharp lessons for India's back-end ambitions."
+---
+
+::: {.callout-important icon=false title="India Focus"}
+Mexico's bet on OSAT (assembly, packaging, testing) as a nearshoring play mirrors India's ISM scheme bet on the same segment. The OECD's diagnosis of Mexico's workforce and supplier-ecosystem gaps reads like a checklist of risks India's industrial policy must pre-empt.
+:::
+
+[📄 Read at OECD iLibrary <span class="arrow">↗</span><span class="oecd-type-label">OECD Publication</span>](https://www.oecd.org/en/publications/promoting-the-development-of-the-semiconductor-ecosystem-in-mexico_02c81dec-en.html){.oecd-source-button target="_blank" rel="noopener"}
+
+## Summary
+
+This OECD review examines Mexico's positioning in global semiconductor value chains, focusing on the nearshoring opportunity created by US-China tech decoupling. It assesses Mexico's current role (primarily in assembly and test), identifies binding constraints (skilled workforce, water and power infrastructure, supplier ecosystem depth), and sets out policy options for moving up the value chain.
+
+> ⚠️ **Seed content — verify against actual OECD report.** This page is a scaffold. Replace the placeholder insights below with your own notes after reading the full OECD publication.
+
+## Key Insights
+
+1. **Nearshoring is a back-end story, not a fab story.** Mexico's realistic near-term opportunity is in assembly, packaging, and testing — not in front-end fabs — because of the capital and talent gap. *(placeholder)*
+
+2. **Workforce is the binding constraint.** The report flags a shortfall of semiconductor-specific technical skills at the mid-level (technician, process engineer) — not just PhD shortages. *(placeholder)*
+
+3. **Supplier ecosystem depth matters more than tax incentives.** Fabless and OSAT investors repeatedly cited local supplier shallowness as a bigger deterrent than marginal tax rates. *(placeholder)*
+
+4. **Water and reliable power are pre-conditions, not nice-to-haves.** Several of Mexico's candidate regions face water stress and grid reliability issues that would disqualify them for semiconductor investment. *(placeholder)*
+
+5. **Regional clusters outperform dispersed incentives.** The report recommends concentrating support in 1-2 regional clusters rather than spreading investment incentives thinly. *(placeholder)*
+
+## What This Means for India
+
+India's ISM scheme shares Mexico's central bet: that OSAT and assembly, not leading-edge fabs, are the realistic near-term entry point into the global semiconductor value chain. The OECD's Mexico diagnosis is therefore a direct mirror.
+
+**First, the workforce warning is the most portable insight.** India's semiconductor strategy has concentrated on design talent (where India is already a global supplier to fabless firms) and capital subsidies for fabs. The OECD's Mexico report points to a *middle-skill* gap — technicians, process engineers, equipment maintenance — that India's Semiconductor Mission has only recently begun to address through the new semiconductor-specific ITIs. The Mexico experience suggests this is the risk most likely to bite first.
+
+**Second, the supplier ecosystem argument challenges the "build one big fab" mental model.** India's Dholera and Sanand investments have attracted anchor investors, but the OECD's Mexico review suggests the second-order question — will a supplier ecosystem of gases, chemicals, equipment servicing, and specialty materials develop around these anchors? — is where value is either captured or lost. Mexico hasn't cracked this; India's strategy needs an explicit supplier-ecosystem component, not just anchor-investor incentives.
+
+**Third, the regional cluster recommendation is a caution against the politics of dispersal.** India has already spread ISM-approved projects across four states. The OECD's finding that concentration beats dispersal in Mexico's case should inform how future ISM rounds are allocated.
+
+## Data Extracted
+
+> Populate this section with quantitative data from the actual OECD report. Include cross-country comparisons where possible and highlight India's row.
+
+| Metric | Mexico | India (for comparison) | Source |
+|--------|:------:|:----------------------:|--------|
+| Semiconductor employment (2023, thousands) | *TBD* | ~95 | Report p. *TBD* |
+| Announced new investments (USD bn, 2023-24) | *TBD* | ~15 | Report p. *TBD* |
+
+## Source
+
+OECD, *Promoting the Development of the Semiconductor Ecosystem in Mexico*.
+
+[Read the full report at OECD →](https://www.oecd.org/en/publications/promoting-the-development-of-the-semiconductor-ecosystem-in-mexico_02c81dec-en.html)

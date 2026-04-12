@@ -1,0 +1,64 @@
+# Country reference metadata for OECD Semiconductor Watch
+# The `india_flag` field lets pages highlight India without hard-coding country matching.
+
+countries:
+  - code: IND
+    name: "India"
+    region: "Asia-Pacific"
+    india_flag: true
+
+  - code: USA
+    name: "United States"
+    region: "Americas"
+
+  - code: EUR
+    name: "European Union"
+    region: "Europe"
+
+  - code: CHN
+    name: "China"
+    region: "Asia-Pacific"
+
+  - code: JPN
+    name: "Japan"
+    region: "Asia-Pacific"
+
+  - code: KOR
+    name: "South Korea"
+    region: "Asia-Pacific"
+
+  - code: TWN
+    name: "Taiwan"
+    region: "Asia-Pacific"
+
+  - code: MEX
+    name: "Mexico"
+    region: "Americas"
+
+  - code: DOM
+    name: "Dominican Republic"
+    region: "Americas"
+
+  - code: VNM
+    name: "Vietnam"
+    region: "Asia-Pacific"
+
+  - code: MYS
+    name: "Malaysia"
+    region: "Asia-Pacific"
+
+  - code: SGP
+    name: "Singapore"
+    region: "Asia-Pacific"
+
+  - code: ISR
+    name: "Israel"
+    region: "Middle East"
+
+  - code: GBR
+    name: "United Kingdom"
+    region: "Europe"
+
+  - code: CAN
+    name: "Canada"
+    region: "Americas"

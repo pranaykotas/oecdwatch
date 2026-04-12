@@ -1,0 +1,129 @@
+---
+title: "OECD Semiconductor Watch"
+subtitle: "What global research means for India's chip ambitions"
+page-layout: full
+toc: false
+listing:
+  - id: latest-reports
+    contents: posts
+    type: default
+    sort: "date desc"
+    max-items: 3
+    fields: [date, title, description, oecd-url, categories]
+    sort-ui: false
+    filter-ui: false
+  - id: india-critical
+    contents: posts
+    type: table
+    sort: "india-relevance desc"
+    max-items: 10
+    fields: [date, title, india-relevance, oecd-url, categories]
+    field-display-names:
+      india-relevance: "India ★"
+      oecd-url: "OECD source"
+    include:
+      india-relevance: "{4,5}"
+    sort-ui: false
+    filter-ui: false
+---
+
+::: {.hero-block}
+# OECD Semiconductor Watch
+
+<span class="hero-accent"></span>
+
+::: {.hero-tagline}
+The OECD produces some of the most careful research on global semiconductor policy — from subsidy benchmarking to country reviews of Mexico, the Dominican Republic, and beyond. This site curates that research and asks, for each report: **what does it mean for India?**
+:::
+:::
+
+## India Dashboard {.unnumbered}
+
+::: {.dashboard-grid}
+
+::: {.dashboard-card}
+::: {.card-label}
+India's semiconductor commitment
+:::
+::: {.card-value}
+~$10bn
+:::
+::: {.card-context}
+vs. US CHIPS Act $52.7bn · EU Chips Act ~$46bn
+:::
+:::
+
+::: {.dashboard-card}
+::: {.card-label}
+India's commercial fab capacity
+:::
+::: {.card-value}
+0 kwpm
+:::
+::: {.card-context}
+First fabs under construction at Dholera and Sanand
+:::
+:::
+
+::: {.dashboard-card}
+::: {.card-label}
+India semiconductor workforce
+:::
+::: {.card-value}
+~95k
+:::
+::: {.card-context}
+Dominated by design / R&D; middle-skill gap is the binding constraint
+:::
+:::
+
+:::
+
+> Dashboard figures are drawn from publicly-reported national commitments. See [Compare Countries](comparisons.qmd) for the full cross-country view.
+
+## Latest curated reports {.unnumbered}
+
+:::{#latest-reports}
+:::
+
+[See all reports →](reports.qmd)
+
+## India-critical reports {.unnumbered}
+
+Reports with an India-relevance rating of 4 or 5 — directly relevant to Indian semiconductor policy debates.
+
+:::{#india-critical}
+:::
+
+::: {.editor-note}
+**Editor's note.** OECD Semiconductor Watch is curated by [Pranay Kotasthane](https://pranaykotas.com) at the [Takshashila Institution](https://takshashila.org.in). The aim is to make OECD semiconductor research accessible and actionable for India's policy community. If you come across a relevant OECD publication that should be covered here, please [open an issue](https://github.com/pranaykotas/oecdwatch/issues/new) or email pranay@takshashila.org.in.
+:::
+
+```{=html}
+<script>
+// Enhance OECD-url columns and india-relevance columns on the homepage listings.
+(function () {
+  function enhance() {
+    document.querySelectorAll('.listing-oecd-url').forEach(function (el) {
+      var url = (el.textContent || '').trim();
+      if (!url || el.dataset.enhanced === '1') return;
+      el.dataset.enhanced = '1';
+      el.innerHTML = '<a href="' + url + '" class="oecd-source-inline" target="_blank" rel="noopener">OECD ↗</a>';
+    });
+    document.querySelectorAll('.listing-india-relevance').forEach(function (el) {
+      var n = parseInt((el.textContent || '').trim(), 10);
+      if (!n || el.dataset.enhanced === '1') return;
+      el.dataset.enhanced = '1';
+      el.innerHTML = '<span class="india-relevance" title="India relevance: ' + n + '/5">' + '★'.repeat(n) + '</span>';
+    });
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', enhance);
+  } else {
+    enhance();
+  }
+  setTimeout(enhance, 250);
+  setTimeout(enhance, 1000);
+})();
+</script>
+```

@@ -1,0 +1,7 @@
+_site/
+_freeze/
+.quarto/
+/.quarto/
+.DS_Store
+.Rhistory
+.RData

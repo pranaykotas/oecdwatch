@@ -1,0 +1,66 @@
+---
+title: "The Chip Landscape: Geographical Distribution of Wafer Fabrication Capacity"
+date: 2025-12-01
+date-curated: 2026-04-10
+author: "Curated by Pranay Kotasthane"
+categories: [policy-paper, fab-capacity, geography, data, india-relevant]
+oecd-url: "https://www.oecd.org/en/publications/the-chip-landscape_02dbd028-en.html"
+oecd-type: "OECD STI Policy Paper No. 188"
+india-relevance: 5
+description: "OECD's authoritative map of where wafer fabrication capacity actually sits — the benchmark every Indian fab ambition should be measured against."
+---
+
+::: {.callout-important icon=false title="India Focus"}
+This is the single most important OECD semiconductor publication for Indian policymakers to internalise. It is the authoritative baseline of *where global wafer fab capacity actually is* — and by implication, how distant India's fab ambitions are from the current geography of production. Any serious debate about ISM 2.0 should start from the numbers in this paper.
+:::
+
+[📄 Read at OECD <span class="arrow">↗</span><span class="oecd-type-label">Policy Paper No. 188 · Dec 2025</span>](https://www.oecd.org/en/publications/the-chip-landscape_02dbd028-en.html){.oecd-source-button target="_blank" rel="noopener"}
+
+## Summary
+
+OECD Science, Technology and Industry Policy Paper No. 188. The report compiles and analyses the geographical distribution of wafer fabrication capacity worldwide, using the semiconductor taxonomy developed in [*Chips, Nodes and Wafers*](2024-08-oecd-chips-nodes-wafers.qmd) (OECD 2024) as its classification scaffold. It is the first leg of what the OECD calls the *Semiconductor Production Database* — a long-running effort to put semiconductor supply-chain statistics on a common, comparable footing.
+
+> ⚠️ **Seed content — replace with detailed extracts after reading the full paper.** The sections below are scaffolding with the high-leverage questions to answer for the Indian reader.
+
+## Key Insights
+
+1. **The global fab footprint is overwhelmingly East Asian.** Taiwan, South Korea, China, and Japan together host the majority of installed wafer fab capacity; Europe and North America are distant followers; India is not on the map. *(verify exact shares from the paper)*
+
+2. **Capacity is not synonymous with capability.** The report distinguishes leading-edge capacity (the headline-grabbing 3nm/5nm/7nm nodes) from mature-node capacity (28nm and above) — and the geographic distributions differ sharply.
+
+3. **The pipeline of announced capacity is distinct from installed capacity.** Announced investments in the US CHIPS Act, EU Chips Act, Japan's Rapidus, and India's ISM-approved fabs are tracked separately from what is currently producing wafers. *(pull exact pipeline figures)*
+
+4. **Concentration is the defining feature, not diversification.** Despite years of "de-risking" rhetoric, the concentration of leading-edge capacity in Taiwan and South Korea has not materially loosened. *(verify with report's specific figures)*
+
+5. **Data gaps remain significant.** The report is explicit about what it cannot yet measure — packaging capacity, compound semiconductor fabs, and specialty fabs — and flags these as priorities for future work on the Semiconductor Production Database.
+
+## What This Means for India
+
+**First, this report is the benchmark against which India's fab ambitions must be calibrated.** When Indian policy debates cite the CHIPS Act or the EU Chips Act, the comparison is typically about *subsidy size*. This paper forces a harder comparison: about *installed and pipeline capacity*. India's ISM-approved fabs (Tata-PSMC at Dholera, CG Power at Sanand, Kaynes at Sanand, and the Micron ATMP facility) represent a pipeline addition that this paper's methodology can quantify precisely. Indian policymakers and commentators should pull the paper's specific numbers and use them to frame every future ISM debate.
+
+**Second, the leading-edge / mature-node distinction is the single most important frame India's policy community is missing.** India is not — and should not pretend to be — competing at the leading edge. Its realistic ambition is mature-node (28nm, 40nm, 65nm, 90nm) capacity, which is where much of the automotive, industrial, and power-electronics demand actually sits. The Chip Landscape's data breakdown by node is the ammunition for making this argument rigorously rather than rhetorically.
+
+**Third, the "pipeline vs installed" distinction is a warning.** Announced capacity is not installed capacity. Many ISM-approved projects are still at the construction or tool-install stage. A future ISM 2.0 debate should ask, precisely using the OECD's methodology: what share of India's announced pipeline will still be "announced" rather than "installed" three years from now, and what are the binding constraints (equipment lead times, skilled operators, utility reliability) that determine the delta?
+
+**Fourth, the packaging/OSAT data gap is a reason for India to push the OECD for better back-end statistics.** India's ISM scheme is disproportionately an OSAT and ATMP bet. If the Semiconductor Production Database doesn't yet cover OSAT capacity well, India has both an interest and a credible voice to ask that it be extended.
+
+## Data Extracted
+
+> The core value of this report is its quantitative geography. Extract the key tables and populate `data/datapoints.yml` with:
+>
+> - Installed wafer fab capacity by country/region (300mm-equivalent, kWpm)
+> - Installed capacity by technology node cluster (leading-edge, advanced, mature)
+> - Announced pipeline capacity by country
+> - Time-series of how shares have shifted 2019-2025
+
+| Metric | Source | India value | India rank |
+|--------|--------|:-----------:|:----------:|
+| Installed fab capacity (kWpm, 2024) | *p. TBD* | 0 | — |
+| Announced pipeline (kWpm, 2026-2030) | *p. TBD* | *TBD* | *TBD* |
+| Mature-node share of pipeline | *p. TBD* | *TBD* | *TBD* |
+
+## Source
+
+OECD (2025), *The Chip Landscape: Geographical Distribution of Wafer Fabrication Capacity*, OECD Science, Technology and Industry Policy Papers, No. 188, OECD Publishing, Paris, [https://doi.org/10.1787/02dbd028-en](https://doi.org/10.1787/02dbd028-en).
+
+[Read the full paper at OECD →](https://www.oecd.org/en/publications/the-chip-landscape_02dbd028-en.html)

@@ -1,0 +1,63 @@
+---
+title: "All OECD Reports"
+subtitle: "Browse every curated report by date, type, or India-relevance"
+page-layout: full
+toc: false
+listing:
+  contents: posts
+  type: table
+  sort: "date desc"
+  categories: true
+  fields: [date, title, oecd-type, india-relevance, oecd-url, categories]
+  field-display-names:
+    date: "Published"
+    title: "Report"
+    oecd-type: "Type"
+    india-relevance: "India ★"
+    oecd-url: "OECD source"
+    categories: "Topics"
+  filter-ui: true
+  sort-ui: true
+  feed: true
+---
+
+Use the filter box to search across titles and topics. Click any column header to sort. The **OECD source** column links directly to each report on the OECD website.
+
+**India-relevance** is a 1-5 editorial rating: how directly a report bears on Indian semiconductor policy debates.
+
+- ★★★★★ (5) — Essential reading; speaks directly to active Indian policy questions
+- ★★★★ (4) — Strong relevance; useful benchmarking or transferable lessons
+- ★★★ (3) — Moderate; selectively useful for specific angles
+- ★★ (2) — Low direct relevance but contains transferable data points
+- ★ (1) — Curated for completeness of the OECD tracking mission
+
+```{=html}
+<script>
+// Post-render enhancement: convert the plain-text OECD URL column into
+// clickable link buttons, and render the india-relevance number as stars.
+(function () {
+  function enhance() {
+    document.querySelectorAll('.listing-oecd-url').forEach(function (el) {
+      var url = (el.textContent || '').trim();
+      if (!url || el.dataset.enhanced === '1') return;
+      el.dataset.enhanced = '1';
+      el.innerHTML = '<a href="' + url + '" class="oecd-source-inline" target="_blank" rel="noopener">OECD ↗</a>';
+    });
+    document.querySelectorAll('.listing-india-relevance').forEach(function (el) {
+      var n = parseInt((el.textContent || '').trim(), 10);
+      if (!n || el.dataset.enhanced === '1') return;
+      el.dataset.enhanced = '1';
+      el.innerHTML = '<span class="india-relevance" title="India relevance: ' + n + '/5">' + '★'.repeat(n) + '</span>';
+    });
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', enhance);
+  } else {
+    enhance();
+  }
+  // Re-run after sort/filter events (Quarto uses list.js which re-renders the DOM)
+  setTimeout(enhance, 250);
+  setTimeout(enhance, 1000);
+})();
+</script>
+```
