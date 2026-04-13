@@ -11,48 +11,75 @@ description: "A boring-sounding but load-bearing paper: the OECD's taxonomy for 
 ---
 
 ::: {.callout-important icon=false title="India Focus"}
-This paper is not a policy argument — it is **plumbing**. But the plumbing matters: it defines how fabs, nodes, and wafers will be classified in the OECD's forthcoming Semiconductor Production Database. For India, the question is whether Indian statistics (from ISM, MeitY, NITI Aayog, and state industrial corporations) will be collected in a way that is internationally comparable or not. If Indian data uses incompatible categories, India will be systematically invisible in future OECD comparative analyses.
+This paper defines how fabs, nodes, and wafers will be classified in the OECD's forthcoming Semiconductor Production Database. India has exactly **two front-end wafer fabs under construction** as of 2026: **Tata Electronics + PSMC in Dholera** (28nm–110nm silicon logic, targeting ~50,000 wafer starts per month) and **SiCSem in Bhubaneswar** (SiC compound semiconductor, targeting ~5,000 wafer starts per month). Both would appear in this taxonomy. The other ISM projects — Micron Sanand, CG Semi Sanand — are back-end ATMP and OSAT. They fall outside this taxonomy entirely. India's most visible manufacturing wins are invisible in the framework that will define global semiconductor statistics for the next decade.
 :::
 
 [📄 Read at OECD <span class="arrow">↗</span><span class="oecd-type-label">Policy Paper · Aug 2024 · 38 pp</span>](https://www.oecd.org/en/publications/chips-nodes-and-wafers_f68de895-en.html){.oecd-source-button target="_blank" rel="noopener"}
 
 ## Summary
 
-A 38-page OECD Science, Technology and Industry Policy Paper that proposes a comprehensive framework for classifying semiconductors and their production facilities. The taxonomy covers front-end wafer fabs using: (i) general company and plant information (location, ownership, operational status), (ii) capability (chip types produced, process technologies used), and (iii) capacity (production capacity, cleanroom size). The paper explicitly sets itself up as the basis for the OECD's *Semiconductor Production Database* — the infrastructure that later reports like [The Chip Landscape (2025)](2025-12-oecd-chip-landscape.qmd) build on.
-
-> ⚠️ **Seed content — replace with detailed extracts after reading the full paper.**
+A 38-page OECD Science, Technology and Industry Policy Paper that proposes a comprehensive framework for classifying semiconductors and their production facilities. The taxonomy covers front-end wafer fabs using three dimensions: (i) general company and plant information (location, ownership, operational status, start year, business model), (ii) capability (chip types produced, feature size, wafer size, transistor type, process technologies, semiconductor material), and (iii) capacity (wafer starts per month, cleanroom size). The paper sets itself up explicitly as the basis for the OECD's *Semiconductor Production Database* — the infrastructure that later reports like *The Chip Landscape* (2025) build on.
 
 ## Key Insights
 
-1. **The paper is explicit that the semiconductor taxonomy problem is unsolved.** Public semiconductor statistics have historically mixed nodes, chip types, wafer sizes, and facility types in incompatible ways. Without a shared taxonomy, cross-country and time-series comparisons are unreliable.
+1. **The semiconductor taxonomy problem is real and largely unsolved.** Public semiconductor statistics have historically mixed nodes, chip types, wafer sizes, and facility types in incompatible ways. The OECD's proposed taxonomy is a first attempt to standardise what a "fab record" looks like across countries. Without it, cross-country and time-series comparisons remain unreliable. *(pp. 6–8)*
 
-2. **The proposed taxonomy is three-layered.** Company/plant, capability, and capacity — each with specific fields and definitions. Future revisions are anticipated as technology evolves.
+2. **The taxonomy is three-layered: plant information, capability, and capacity.** Each layer has specific fields (see Data Extracted below). The capability layer is the richest — it includes not just node size but transistor architecture, process technologies, and semiconductor material, all of which matter for understanding substitutability between fabs. *(Figure 7, p. 27)*
 
-3. **The taxonomy is intentionally front-end focused first.** Back-end facilities (OSAT, ATMP) are acknowledged as an important future extension but are not fully covered in this initial version.
+3. **Chip substitutability and fab substitutability are the two supply-chain risk concepts the taxonomy is designed to support.** Chip substitutability asks whether a specific chip in an end-product can be swapped for another. Fab substitutability asks whether a chip's production can shift to another plant with minimal equipment changes. Neither question can be answered without knowing a fab's detailed capability profile. *(p. 11)*
 
-4. **International coordination is required, not just definition.** The paper recognises that a taxonomy only matters if statistical agencies and industry associations adopt it. It reads as a soft lobbying document for OECD members to align their national data collection.
+4. **The taxonomy is intentionally front-end focused first.** Back-end facilities — OSAT, ATMP, advanced packaging — are acknowledged as an important future extension but are not covered in this version. This is a significant gap for countries like India whose manufacturing footprint is currently concentrated in back-end processes. The paper also notes that advanced packaging is actively blurring this boundary: interposers for CoWoS-type packaging must be fabricated at front-end fabs, and TSMC already incorporates electroplating and related back-end equipment into its fabs for this reason. Future taxonomy revisions will need to account for this. *(pp. 9–10)*
 
-5. **The paper is self-aware about the trade-off between granularity and feasibility.** More granular classification is more useful analytically but harder to maintain against a moving technological target.
+5. **FinFET is reaching its limits; gate-all-around (GAAFET) is the next transistor generation.** The paper notes FinFETs are "currently reaching the limit of how high fins can go and how many fins can be placed side by side." GAA-FETs use stacked nanosheets so the gate surrounds the channel on all four sides — further reducing leakage and increasing drive current. IEEE's *International Roadmap for Devices and Systems* forecasts logic chips scaling to below 1nm by the 2030s using GAAFET and 3D integration. India's Tata/PSMC fab spans 28nm to 110nm — planar CMOS nodes, well before FinFET territory. India is entering front-end manufacturing at the current-generation to mature-node tier. That's a defensible strategic position — mature nodes are commercially critical and far less capital-intensive than leading edge — but ISM communications should say so plainly rather than letting the word "fab" imply technological parity with TSMC or Samsung. *(pp. 16–17)*
 
 ## What This Means for India
 
-**First, India has a choice to make about statistical interoperability.** When the ISM collects data from approved fab projects, when MeitY publishes ecosystem statistics, and when NITI Aayog benchmarks semiconductor progress, the category definitions matter. If they use India-specific classifications, every future OECD comparative report will either exclude India or interpret Indian data inconsistently. The cost of adopting the OECD taxonomy is low; the cost of not adopting it is high and rising.
+**India has exactly two front-end wafer fabs under construction as of 2026, and both can be fully characterised using the OECD taxonomy.** The first is Tata Electronics + PSMC in Dholera, Gujarat — a foundry, under construction, targeting first chips in late 2026. Chip type is logic; feature size spans 28nm to 110nm nodes; transistor architecture is planar CMOS (28nm is a pre-FinFET node); material is silicon; target capacity is approximately 50,000 wafer starts per month. When it begins production, India will appear in the OECD's Semiconductor Production Database as a front-end logic manufacturer for the first time.
 
-**Second, the missing OSAT layer is an opening for Indian advocacy.** India's semiconductor footprint is disproportionately in OSAT/ATMP. The OECD's front-end-first taxonomy will systematically under-represent India unless the back-end extension is built. India's Ministry of Electronics and IT, together with ISA, could credibly push the OECD to accelerate the back-end taxonomy work and offer India-specific data as part of that effort — converting an apparent disadvantage into influence.
+The second is SiCSem in Bhubaneswar, Odisha — a compound semiconductor fab being built in partnership with Clas-SiC Wafer Fab (Scotland). Chip type is power/analog; material is silicon carbide (SiC); applications target electric vehicles, defence equipment, railways, and fast-charging infrastructure. Target capacity is approximately 60,000 wafers per year (~5,000 wafer starts per month). This is India's first SiC device fab, and it maps cleanly to the OECD taxonomy's compound semiconductor material category.
 
-**Third, Indian think tanks and researchers should treat this taxonomy as the reference vocabulary.** Any future Indian semiconductor tracking effort (including the Takshashila [India Semiconductor Manufacturing Tracker](https://fabs.pranaykotas.com)) should explicitly map its own categories to the OECD taxonomy. That makes the India-specific work interoperable with international benchmarks and significantly more useful to policymakers.
+**Everything else in India's ISM portfolio is back-end, and none of it appears in this taxonomy.** Micron's Sanand ATMP plant (inaugurated February 2026) and CG Semi's OSAT facility (G1 operational since August 2025) are the most-publicised Indian semiconductor projects of recent years. They are not counted. The OECD's front-end-first taxonomy makes India look smaller than it is in the global packaging and assembly landscape. This is not a quibble — it matters for how supply-chain risk analyses, subsidy benchmarks, and resilience assessments are conducted in Washington, Brussels, and Tokyo.
 
-**Fourth, a low-visibility but high-leverage takeaway: who sets the standard wins.** The OECD's taxonomy will become the lingua franca of semiconductor statistics. Countries that engaged in its design have their categories embedded in the standard. Countries that did not will permanently fit themselves to someone else's vocabulary. India should have a reviewer in the next revision round.
+**India should have a reviewer in the next taxonomy revision round.** The OECD has signalled that a back-end extension is coming. MeitY and ISA have a clear interest in shaping how OSAT and ATMP are classified — by package type, chip category, or technology tier. India's ISM scheme already collects data from approved projects. Mapping that data to the OECD taxonomy costs very little. Not doing so means billions in investment remain statistically invisible.
+
+**Indian think tanks and researchers should treat this taxonomy as the reference vocabulary.** Any India-focused semiconductor tracking effort — fab trackers, state-level investment databases, ISM dashboards — should explicitly map its categories to the OECD framework. That makes India-specific work interoperable with international benchmarks and significantly more useful to policymakers benchmarking India against Taiwan, Malaysia, or Vietnam.
 
 ## Data Extracted
 
-> This is a methodology paper, not a data paper. The "data" here is the taxonomy itself — mine the paper for the complete field list and map them to India's own data collection practices in the ISM scheme.
+**OECD's proposed taxonomy for front-end wafer fabs (Figure 7, p. 27)**
 
-**Taxonomy dimensions (to extract in full):**
+| Dimension | Field | Examples / Values |
+|-----------|-------|-------------------|
+| **Plant Information** | Location | Country, state, city |
+| | Owner | Company name, nationality |
+| | Status | Planned / Under construction / Operational / Closed |
+| | Start Year | Year fab began production |
+| | Business Model | IDM or Foundry |
+| **Capability** | Chip Type | Logic, Memory, Analog, Others |
+| | Detailed Chip Type | MCU, CPU, DSP, GPU, IPU, DRAM, Flash, Power, etc. |
+| | Feature Size | Logic: node (nm); NAND: layers + bits/cell; DRAM: half-pitch (nm) |
+| | Wafer Size | 200mm, 300mm (mm) |
+| | Transistor Type | MOSFET, FinFET, GAAFET, MESFET, JFET, Bipolar, BiCMOS, IGBT |
+| | Process Technologies | PDSOI/FDSOI, Low/High-K, Adv. Lithography, Adv. Etching, Adv. Deposition, 3D Integration |
+| | Semiconductor Material | Si, Ge, GaAs, SiC, GaN, InP, etc. |
+| **Capacity** | Wafer Starts per Month | kwspm |
+| | Cleanroom Size | Square metres / square feet |
 
-- Company / plant: *fields TBD*
-- Capability: *fields TBD*
-- Capacity: *fields TBD*
+**India's front-end wafer fabs mapped to OECD taxonomy** *(back-end ATMP/OSAT projects excluded — they fall outside this taxonomy)*
+
+| Field | Tata Electronics + PSMC (Dholera) | SiCSem (Bhubaneswar) |
+|-------|-----------------------------------|----------------------|
+| Location | Dholera, Gujarat | Bhubaneswar, Odisha |
+| Owner | Tata Electronics / PSMC (tech transfer) | SiCSem Pvt Ltd / Clas-SiC Wafer Fab (tech partner) |
+| Business model | Foundry | IDM |
+| Status | Under construction | Under construction (started Nov 2025) |
+| Chip type | Logic | Analog / Power |
+| Detailed chip type | MCU, CPU, SoC (logic foundry) | SiC power devices (MOSFETs) |
+| Feature size | 28nm – 110nm | Power devices (not node-defined) |
+| Semiconductor material | Silicon (Si) | Silicon Carbide (SiC) |
+| Transistor type | Planar MOSFET/HKMG (28nm is pre-FinFET) | SiC MOSFET |
+| Wafer starts / month | ~50,000 (target) | ~5,000 (target; 60,000/year) |
+| Investment | ~INR 91,000 crore (~USD 11bn) | ~USD 220 million |
 
 ## Source
 
