@@ -1,66 +1,98 @@
 ---
 title: "The Chip Landscape: Geographical Distribution of Wafer Fabrication Capacity"
 date: 2025-12-01
-date-curated: 2026-04-10
+date-curated: 2026-04-14
 author: "Curated by Pranay Kotasthane"
-categories: [policy-paper, fab-capacity, geography, data, india-relevant]
+categories: [flagship, capacity-data, china, india-relevant, taxonomy]
 oecd-url: "https://www.oecd.org/en/publications/the-chip-landscape_02dbd028-en.html"
 oecd-type: "OECD STI Policy Paper No. 188"
 india-relevance: 5
-description: "OECD's authoritative map of where wafer fabrication capacity actually sits — the benchmark every Indian fab ambition should be measured against."
+description: "First OECD analysis using the Semiconductor Production Database. India appears for the first time — as the largest upcoming capacity contributor in Rest of World. But India's entire planned capacity is ~85x smaller than China's current mature-node output."
 ---
 
 ::: {.callout-important icon=false title="India Focus"}
-This is the single most important OECD semiconductor publication for Indian policymakers to internalise. It is the authoritative baseline of *where global wafer fab capacity actually is* — and by implication, how distant India's fab ambitions are from the current geography of production. Any serious debate about ISM 2.0 should start from the numbers in this paper.
+India appears in OECD's semiconductor production data for the first time — not as a current producer, but as the largest upcoming capacity contributor in the "Rest of World" bucket (Figure 3). Tata Electronics is the named company. The scale gap is vertiginous: India's entire planned fab capacity (~50,000 wspm at Tata/PSMC Dholera) amounts to roughly 1.2% of China's current mature-node output. This paper is the most important quantitative benchmark every ISM 2.0 debate should start from.
 :::
 
-[📄 Read at OECD <span class="arrow">↗</span><span class="oecd-type-label">Policy Paper No. 188 · Dec 2025</span>](https://www.oecd.org/en/publications/the-chip-landscape_02dbd028-en.html){.oecd-source-button target="_blank" rel="noopener"}
+[📄 Read at OECD <span class="arrow">↗</span><span class="oecd-type-label">Policy Paper No. 188 · Dec 2025 · 38 pp</span>](https://www.oecd.org/en/publications/the-chip-landscape_02dbd028-en.html){.oecd-source-button target="_blank" rel="noopener"}
 
 ## Summary
 
-OECD Science, Technology and Industry Policy Paper No. 188. The report compiles and analyses the geographical distribution of wafer fabrication capacity worldwide, using the semiconductor taxonomy developed in [*Chips, Nodes and Wafers*](2024-08-oecd-chips-nodes-wafers.qmd) (OECD 2024) as its classification scaffold. It is the first leg of what the OECD calls the *Semiconductor Production Database* — a long-running effort to put semiconductor supply-chain statistics on a common, comparable footing.
-
-> ⚠️ **Seed content — replace with detailed extracts after reading the full paper.** The sections below are scaffolding with the high-leverage questions to answer for the Indian reader.
+OECD Science, Technology and Industry Policy Paper No. 188 — the first publication from the OECD Semiconductor Production Database, which applies the taxonomy developed in [*Chips, Nodes and Wafers*](2024-08-oecd-chips-nodes-wafers.qmd) (OECD, 2024) to actual fab-level data. It maps global wafer fabrication capacity by economy, process node density, chip type, ownership structure, and business model, using data from SEMI's World Fab Watch (Q3 2025), TechInsights' 300mm Watch, and the Semico Fab Database, augmented with desk research. The database covers 1,433 fabs of which 1,326 are in-production as of September 2025.
 
 ## Key Insights
 
-1. **The global fab footprint is overwhelmingly East Asian.** Taiwan, South Korea, China, and Japan together host the majority of installed wafer fab capacity; Europe and North America are distant followers; India is not on the map. *(verify exact shares from the paper)*
+1. **Five economies hold 87% of global in-production capacity.** China, Chinese Taipei, Korea, Japan, and the United States together account for nearly 90% of installed wafer fab capacity as of September 2025. Within these economies, concentration compounds further: the ten largest semiconductor companies account for around half of total global production capacity. *(p. 7, 27)*
 
-2. **Capacity is not synonymous with capability.** The report distinguishes leading-edge capacity (the headline-grabbing 3nm/5nm/7nm nodes) from mature-node capacity (28nm and above) — and the geographic distributions differ sharply.
+2. **China dominates every chip type category relevant to India.** China and Chinese Taipei are the *only* two economies in the top-five across all six chip type categories (power, analog, mature logic, advanced logic, commodity memory, specialty memory). China leads in power/discrete (6.28M WSPM), analog (3.64M WSPM), and mature logic (4.23M WSPM) — the exact three segments where India's upcoming fabs will operate. *(Figure 4, p. 18)*
 
-3. **The pipeline of announced capacity is distinct from installed capacity.** Announced investments in the US CHIPS Act, EU Chips Act, Japan's Rapidus, and India's ISM-approved fabs are tracked separately from what is currently producing wafers. *(pull exact pipeline figures)*
+3. **India is the largest upcoming capacity contributor in Rest of World.** Figure 3 lists Tata Electronics (and, in the September 2025 data vintage, Vedanta) as the top upcoming capacity-generating companies for the Rest of World category. RoW as a whole grows +22% from upcoming fabs. This is the first time India enters the OECD's Semiconductor Production Database. *(Figure 3, p. 16)*
 
-4. **Concentration is the defining feature, not diversification.** Despite years of "de-risking" rhetoric, the concentration of leading-edge capacity in Taiwan and South Korea has not materially loosened. *(verify with report's specific figures)*
-
-5. **Data gaps remain significant.** The report is explicit about what it cannot yet measure — packaging capacity, compound semiconductor fabs, and specialty fabs — and flags these as priorities for future work on the Semiconductor Production Database.
+4. **China's upcoming mature-node expansion alone exceeds India's entire planned capacity 16x.** China is adding 0.81M WSPM in upcoming mature logic capacity. India's Tata/PSMC target is ~0.05M WSPM. Geography is not diversifying — upcoming investments are concentrated in the same five large producing economies. *(Figure 3, 5, p. 16, 19–20)*
 
 ## What This Means for India
 
-**First, this report is the benchmark against which India's fab ambitions must be calibrated.** When Indian policy debates cite the CHIPS Act or the EU Chips Act, the comparison is typically about *subsidy size*. This paper forces a harder comparison: about *installed and pipeline capacity*. India's ISM-approved fabs (Tata-PSMC at Dholera, CG Power at Sanand, Kaynes at Sanand, and the Micron ATMP facility) represent a pipeline addition that this paper's methodology can quantify precisely. Indian policymakers and commentators should pull the paper's specific numbers and use them to frame every future ISM debate.
+**India's fab entry is sovereign capability-building, not commercial competition.** Tata/PSMC at 50,000 wspm (~0.05M WSPM) is entering a mature-logic segment where China already has 4.23M WSPM in production and another 0.81M WSPM under construction. There is no commercial story here. The right frame is supply chain security for automotive, defence, and telecom — a domestic anchor, not a market-share play. ISM communications that imply India is "catching up" in global chip manufacturing miss the point by an order of magnitude. Catching up is not the goal; having any capacity at all is.
 
-**Second, the leading-edge / mature-node distinction is the single most important frame India's policy community is missing.** India is not — and should not pretend to be — competing at the leading edge. Its realistic ambition is mature-node (28nm, 40nm, 65nm, 90nm) capacity, which is where much of the automotive, industrial, and power-electronics demand actually sits. The Chip Landscape's data breakdown by node is the ammunition for making this argument rigorously rather than rhetorically.
+**The Vedanta listing is a stale data artefact.** The OECD database (September 2025 snapshot) lists Vedanta alongside Tata in the upcoming RoW category. This reflects plans that were active at the time of data collection. Vedanta's fab project has since been discontinued — the joint venture with Foxconn collapsed in 2023, and no credible replacement has materialised. India's realistic upcoming front-end fab capacity is Tata/PSMC only. Anyone citing this paper's RoW numbers for India should halve the Vedanta contribution.
 
-**Third, the "pipeline vs installed" distinction is a warning.** Announced capacity is not installed capacity. Many ISM-approved projects are still at the construction or tool-install stage. A future ISM 2.0 debate should ask, precisely using the OECD's methodology: what share of India's announced pipeline will still be "announced" rather than "installed" three years from now, and what are the binding constraints (equipment lead times, skilled operators, utility reliability) that determine the delta?
+**China's mature-node dominance may be even larger than shown.** The OECD explicitly flags that Chinese companies have limited incentive to disclose production capabilities under geopolitical scrutiny. Commercial datasets update Chinese fab records only when public media reports new investments. The paper warns that actual wafer fabrication capacity in China is "likely higher than estimated." If so, the already-overwhelming gap between China and India in mature-node logic is understated. *(p. 35)*
 
-**Fourth, the packaging/OSAT data gap is a reason for India to push the OECD for better back-end statistics.** India's ISM scheme is disproportionately an OSAT and ATMP bet. If the Semiconductor Production Database doesn't yet cover OSAT capacity well, India has both an interest and a credible voice to ask that it be extended.
+**India has a narrow window to push the OECD for back-end statistics.** This paper is front-end only — it excludes OSAT, ATMP, and advanced packaging. India's ISM wins (Micron Sanand ATMP, CG Semi OSAT) are statistically invisible. The OECD has signalled a back-end extension is coming. MeitY and ISA have a direct interest in shaping how OSAT capacity is classified — by package type, chip category, or technology tier. India's ISM data is already being collected; mapping it to the OECD taxonomy before the next revision cycle costs almost nothing. Not doing so means India's genuine manufacturing wins remain invisible in the framework that Washington, Brussels, and Tokyo use for supply-chain risk analysis.
+
+## Charts
+
+![Figure 1. Feature size distribution in the five economies with the largest in-production capacity. Only in-production fabs included. Source: OECD Semiconductor Production Database based on augmented SEMI (2025), Semico Research (2024), TechInsights (2024). Reproduced from OECD (2025), *The chip landscape*, Policy Paper No. 188.](img/chip-landscape-fig1-node-density.png){fig-alt="Horizontal bar chart showing in-production wafer capacity by node density range for China, Chinese Taipei, Korea, Japan, and USA. China has the largest total capacity (~12–13M WSPM) with a wide spread across mature nodes. Korea is narrowly concentrated in 6–22nm (memory). Chinese Taipei leads in <6nm (TSMC)."}
+
+![Figure 2. Capacity share of the largest five companies by economy. Company share measured by in-production capacity in million (M) WSPM in 8" equivalents. Source: OECD Semiconductor Production Database based on augmented SEMI (2025), Semico Research (2024), TechInsights (2024). Reproduced from OECD (2025), *The chip landscape*, Policy Paper No. 188.](img/chip-landscape-fig2-company-share.png){fig-alt="Bar chart comparing total wafer capacity and top-5 company share across nine economies. China has the most companies (181) with the highest capacity but lowest top-5 concentration. Japan has 155 companies. Korea is highly concentrated in two firms (Samsung, SK Hynix)."}
+
+![Figure 3. Capacity by economy with top upcoming capacity generating companies. Shows total in-production and upcoming capacity (under construction + planned). India accounts for the largest share of upcoming capacity in Rest of World (RoW), with Tata Electronics listed as a top contributor. Source: OECD Semiconductor Production Database based on augmented SEMI (2025), Semico Research (2024), TechInsights (2024). Reproduced from OECD (2025), *The chip landscape*, Policy Paper No. 188.](img/chip-landscape-fig3-upcoming-capacity.png){fig-alt="Stacked bar chart showing in-production plus upcoming (under construction and planned) wafer capacity by economy. USA has the highest upcoming growth rate (+81%), Korea +41%, Germany +50%. Rest of World grows +22%, led by Tata, Vedanta (stale), STMicro, Intel, Onsemi."}
+
+![Figure 4. Five largest economies by wafer capacity per chip type. Six panels covering power/discrete, analog, specialty memory, commodity memory, advanced logic (<20nm), and mature logic (≥20nm). Dark shade = in-production; light shade = upcoming. Source: OECD Semiconductor Production Database based on augmented SEMI (2025), Semico Research (2024), TechInsights (2024). Reproduced from OECD (2025), *The chip landscape*, Policy Paper No. 188.](img/chip-landscape-fig4-chip-types.png){fig-alt="Six panel bar chart. China dominates power (6.28M WSPM), analog (3.64M), and mature logic (4.23M) — the segments India's upcoming fabs target. Chinese Taipei leads advanced logic. Korea dominates commodity memory. China and Chinese Taipei are the only economies in the top five across all six chip types."}
 
 ## Data Extracted
 
-> The core value of this report is its quantitative geography. Extract the key tables and populate `data/datapoints.yml` with:
->
-> - Installed wafer fab capacity by country/region (300mm-equivalent, kWpm)
-> - Installed capacity by technology node cluster (leading-edge, advanced, mature)
-> - Announced pipeline capacity by country
-> - Time-series of how shares have shifted 2019-2025
+**In-production wafer capacity by chip type — top economies** *(Figure 4, p. 18; values in millions WSPM in 8" equivalents)*
 
-| Metric | Source | India value | India rank |
-|--------|--------|:-----------:|:----------:|
-| Installed fab capacity (kWpm, 2024) | *p. TBD* | 0 | — |
-| Announced pipeline (kWpm, 2026-2030) | *p. TBD* | *TBD* | *TBD* |
-| Mature-node share of pipeline | *p. TBD* | *TBD* | *TBD* |
+| Chip Type | China | Chinese Taipei | Japan | USA | Korea |
+|---|---|---|---|---|---|
+| Power / Discrete | 6.28M | 2.42M | 1.60M | ~0.7M | ~0.7M |
+| Analog | 3.64M | 2.09M | ~1.0M | 1.90M | ~0.7M |
+| Mature Logic (≥20nm) | 4.23M | 2.48M | 1.24M | ~0.8M | — |
+| Advanced Logic (<20nm) | 0.39M | 1.55M | — | 0.84M | 0.39M |
+| Commodity Memory | 2.10M | 1.30M | 2.10M | — | ~4.50M |
+| **India (planned)** | — | — | — | — | — |
+| *Tata/PSMC (mature logic)* | *~0.05M* | | | | |
+| *SiCSem (power/SiC)* | *~0.005M* | | | | |
+
+*Note: India values are targets from planned/under-construction fabs, not in-production capacity.*
+
+**Upcoming capacity growth by economy** *(Figure 3, p. 16; % growth over in-production base)*
+
+| Economy | Upcoming capacity growth | Top companies driving growth |
+|---|---|---|
+| USA | +81% | Micron, TI, TSMC, Intel, Samsung |
+| Korea | +41% | SK Hynix, Samsung |
+| Germany | +50% | Infineon, TSMC, Vishay, Bosch |
+| China | +18% | SMIC, YMTC, DGGMT, CXMT, Hua Li |
+| Japan | +14% | TSMC, Sony, JSMC, KioxA |
+| Chinese Taipei | +10% | TSMC, Nanya, Winbond, VIS |
+| Rest of World | +22% | **Tata**, Vedanta†, STMicro, Intel, Onsemi |
+
+†*Vedanta listed in OECD September 2025 data vintage; fab project has since been discontinued.*
+
+**Feature size distribution — five largest economies** *(Figure 1, p. 13; shares are approximate from chart)*
+
+| Economy | Dominant node range | Character of fab base |
+|---|---|---|
+| Korea | 6–22nm | Memory-focused; SK Hynix + Samsung DRAM/NAND |
+| Chinese Taipei | <6nm + 6–22nm | Leading-edge foundry (TSMC) dominant |
+| Japan | Spread across all nodes | Diversified: analog, power, specialty, logic |
+| USA | Spread, leading-edge present | Diversified; advanced logic + memory |
+| China | 22–45nm + 90–300nm | Mature-node heavy; broadest node range; likely underestimated |
 
 ## Source
 
-OECD (2025), *The Chip Landscape: Geographical Distribution of Wafer Fabrication Capacity*, OECD Science, Technology and Industry Policy Papers, No. 188, OECD Publishing, Paris, [https://doi.org/10.1787/02dbd028-en](https://doi.org/10.1787/02dbd028-en).
+OECD (2025), *The chip landscape: Geographical distribution of wafer fabrication capacity*, OECD Science, Technology and Industry Policy Papers, No. 188, OECD Publishing, Paris, [https://doi.org/10.1787/02dbd028-en](https://doi.org/10.1787/02dbd028-en).
 
 [Read the full paper at OECD →](https://www.oecd.org/en/publications/the-chip-landscape_02dbd028-en.html)
